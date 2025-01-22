@@ -5,7 +5,7 @@ from functools import lru_cache
 from threading import Lock
 from typing import Any, Optional, Union
 
-import boto3
+import boto3  
 from mypy_boto3_s3 import S3Client
 from mypy_boto3_secretsmanager import SecretsManagerClient
 from pydantic import ConfigDict, Field, SecretStr
